@@ -10,11 +10,11 @@ header("Cache-Control: max-age=2592000");
 require_once "Core/Define.php";
 require_once "Core/Init.php";
 
-
+/*
 $User = new User();
 
 if ($User->IsLoggedIn()) 
-{
+{*/
 ?>
 
 <!DOCTYPE html>
@@ -443,10 +443,11 @@ if ($User->IsLoggedIn())
 </html>
 		
 <?php
+/*
 } 
 else
 {
 	Redirect::To('Login.php');
 }
-
+*/
 ?>
